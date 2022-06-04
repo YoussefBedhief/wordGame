@@ -15296,7 +15296,6 @@ const targetWords = [
   const guessGrid = document.querySelector("[data-guess-grid]")
   const WORD_LENGTH = 5
   const targetWord = targetWords[Math.floor(Math.random()*targetWords.length)]
-  console.log(targetWord)
 
 startInteraction()
 
